@@ -10,7 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">   
     
 	<!-- Google Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet"> 
 
@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="styles/main.css" type="text/css">
     
 	<script src="js/modernizr-custom.js" type="text/javascript"></script>
+    <?php header('Access-Control-Allow-Origin: *'); ?>
         
 	<title>Dekini - Coming Soon</title>
 </head>
@@ -140,11 +141,9 @@
                                         <div id="cube">
                                             <a href="#"><div class="cube-slide cube-slide-1"></div></a>
                                             <div class="cube-slide cube-slide-2 cube-form-slide">
-                                                <form id="notice-me" action="save_email.php" method="post" data-opening-error-msg="Email was not added - error here." data-success-msg="Email successfully added." data-ajax-fail-msg="Ajax could not contact the script." data-email-not-set-msg="Please enter a valid email address.">
-                                                    <input name="email" value="email" type="text" placeholder="email">
+                                                <form id="notice-me" action="https://dekini.herokuapp.com/signups" method="post" data-opening-error-msg="Email was not added - error here." data-success-msg="Email successfully added." data-ajax-fail-msg="Ajax could not contact the script." data-email-not-set-msg="Please enter a valid email address.">
+                                                    <input name="email" type="text" placeholder="email">
                                                     <input type="submit" value="Send">
-                                                
-                                                    <div class="ajax-loader"></div>
                                                 </form>
                                             </div>
                                             <div class="cube-slide cube-slide-3 tooltip-trigger"></div>
