@@ -50,7 +50,7 @@ jQuery(document).ready(function(e) {
 		$.ajax({
 			type: form_el.attr('method'),
 			url: form_el.attr('action'),
-			data: { email: email, ajax: true },
+			data: { signup: {email: email}, ajax: true },
 			cache: false,
 			async: false,
 			dataType: "text"

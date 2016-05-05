@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="styles/main.css" type="text/css">
     
 	<script src="js/modernizr-custom.js" type="text/javascript"></script>
+
     <?php header('Access-Control-Allow-Origin: *'); ?>
         
 	<title>Dekini - Coming Soon</title>
@@ -145,6 +146,7 @@
                                                     <input name="email" type="text" placeholder="email">
                                                     <input type="submit" value="Send">
                                                 </form>
+                                                <div class="ajax-loader"></div>
                                             </div>
                                             <div class="cube-slide cube-slide-3 tooltip-trigger"></div>
                                             
