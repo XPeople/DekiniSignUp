@@ -55,15 +55,15 @@ jQuery(document).ready(function(e) {
 			async: false,
 			dataType: "text"
 		})
-		.fail(function() {
-			form_el.find('.ajax-loader').hide();
-			if(transforms3d_supported) {
-				cube.find('.cube-slide-3').attr('title', '').html(form_el.data('ajax-fail-msg'));
-				cube.showBottom();
-			}
-			else
-				cube.find('.return-msg').attr('title', '').html(form_el.data('ajax-fail-msg')).fadeIn();
-		})
+		// .fail(function() {
+		// 	form_el.find('.ajax-loader').hide();
+		// 	if(transforms3d_supported) {
+		// 		cube.find('.cube-slide-3').attr('title', '').html(form_el.data('ajax-fail-msg'));
+		// 		cube.showBottom();
+		// 	}
+		// 	else
+		// 		cube.find('.return-msg').attr('title', '').html(form_el.data('ajax-fail-msg')).fadeIn();
+		// })
 		.done(function(message) {
 			form_el.find('.ajax-loader').hide();
 			if(message == "" || (typeof(message) == 'undefined')) {

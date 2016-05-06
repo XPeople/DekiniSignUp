@@ -22,10 +22,7 @@ body {
 	cursor: all-scroll;
 }
 
-form.has-return-msg {
-	position: relative;
-	overflow: auto;
-}
+
 
 h1,
 h2 {
