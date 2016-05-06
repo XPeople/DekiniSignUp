@@ -132,7 +132,7 @@
                             <div class="wrapper">
                                 <div class="slide-head">
                                     <h1>We Are Getting Ready...</h1>
-                                    <p>Welcome on Dekini. We are currently working on this site.<br>
+                                    <p>Welcome to Dekini. We are currently working on this site.<br>
                                     Every minute of an hour counts in bringing our service to you.</p>
                                 </div><!-- slide-head -->
                                 <div class="counter-placeholder"></div>
