@@ -114,8 +114,8 @@
                             <div class="wrapper">
                                 <div class="slide-head">
                                     <h2>About</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis volutpat nulla eu sollicitudin.</p>
-                                    <p>In aliquet a lectus sit amet pharetra. Vivamus convallis leo enim, id facilisis purus porttitor at. Donec porttitor sem augue, a tristique risus pretium sit amet. Nulla eleifend eleifend dui nec egestas.</p>
+                                    <p>For freight forwarders who spend lot of time in acquiring customers, Dekini matches them to the right customers that need their service.</p>
+                                    <p>We help importers and exporters make informed decisions based on their needs, budget & preference by matching them to the appropriate freight forwarders</p>
                                 </div><!-- slide-head -->
                                 <div class="counter-placeholder"></div>
                                 <div class="slide-bottom">
